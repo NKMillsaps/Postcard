@@ -14,7 +14,7 @@ p {color:blue;    text-align:left;    font-family: Times 'Times New Roman', Time
 .image img {text-align: right;   display: block;  margin-left: 160px;  margin-right: auto;}
 
 
-.title {float: center;}
+.title {float: right;}
 .title {color: orange;}
 
 .postcard-content {size: 100%; overflow: hidden; margin: 5%;}
