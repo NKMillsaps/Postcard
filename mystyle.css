@@ -1,0 +1,36 @@
+body {background-color:yellow(231, 231, 214);}
+
+
+p {color:blue;    text-align:left;    font-family: Times 'Times New Roman', Times, serif;}
+
+
+/* .pantherz {
+  background-color: pink;
+  width: 500px;
+} */
+.postcard-header {height: 70px;overflow: hidden; margin: 3%;}
+.title, .image {width: 50%;}
+.image {float: right;}
+.image img {text-align: right;   display: block;  margin-left: 160px;  margin-right: auto;}
+
+
+.title {float: center;}
+.title {color: orange;}
+
+.postcard-content {size: 100%; overflow: hidden; margin: 5%;}
+
+.postcard-size {
+  width: 500px;
+  height: 350px;
+  border: 1px solid blue;
+  margin: auto; }
+
+.content1, .content2 {width: 50%;}
+.content1 {float: left;}
+.content2 {float: right;}
+.content2 {text-align: auto;}
+
+.postcard-footer {text-align: center;}
+.postcard-footer {margin: 50px;}
+
+
