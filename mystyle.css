@@ -1,34 +1,30 @@
-body {background-color:yellow(231, 231, 214);}
-
-
+body {background-color:yellow(231, 231, 214); padding: 10px;}
 p {color:blue;    text-align:left;    font-family: Times 'Times New Roman', Times, serif;}
-
 
 /* .pantherz {
   background-color: pink;
   width: 500px;
 } */
-.postcard-header {height: 70px;overflow: hidden; margin: 3%;}
+.postcard-header {height: 70px;overflow: hidden; border: solid red;}
 .title, .image {width: 50%;}
+
+.image img { border: 1px solid green;float: right;}
+
+.title {color: blue; float: left; text-align: center;}
 .image {float: right;}
-.image img {text-align: right;   display: block;  margin-left: 160px;  margin-right: auto;}
 
-
-.title {float: right;}
-.title {color: orange;}
-
-.postcard-content {size: 100%; overflow: hidden; margin: 5%;}
+.postcard-content {size: 100%; overflow: hidden; margin: 5%; border: 1px solid green;}
 
 .postcard-size {
   width: 500px;
   height: 350px;
   border: 1px solid blue;
-  margin: auto; }
+  margin: auto; padding 10px; }
 
-.content1, .content2 {width: 50%;}
+.content1, .content2 {width: 45%;}
 .content1 {float: left;}
-.content2 {float: right;}
-.content2 {text-align: auto;}
+.content2 {float: right; border: 1px solid purple;}
+.content2 {text-align: right;}
 
 .postcard-footer {text-align: center;}
 .postcard-footer {margin: 50px;}
